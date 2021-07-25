@@ -1,0 +1,24 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "authLevel": "admin",
+      "direction": "in",
+      "name": "req",
+      "methods": ["get", "post"]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    },
+    {
+      "type": "sendGrid",
+      "name": "sendGridMessage",
+      "direction": "out",
+      "apiKey": "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",
+      "from": "senderemail@example.com"
+    }
+  ]
+}

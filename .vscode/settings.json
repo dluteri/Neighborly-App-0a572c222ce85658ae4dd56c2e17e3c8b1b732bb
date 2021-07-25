@@ -1,0 +1,11 @@
+{
+    "azureFunctions.deploySubpath": "NeighborlyAPI",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.pythonVenv": ".venv",
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "appService.deploySubpath": ".",
+    "python.pythonPath": "C:\\Users\\Student\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "appService.defaultWebAppToDeploy": "/subscriptions/21c3b110-f64e-4fec-88bc-5570cc5b6835/resourceGroups/cloud-demo-152499/providers/Microsoft.Web/sites/luteriwebapp"
+}
